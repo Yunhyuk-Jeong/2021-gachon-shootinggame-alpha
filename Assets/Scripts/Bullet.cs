@@ -1,15 +1,13 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 5;
+    public float speed = 10;
 
     void Update()
     {
-        Vector3 dir = Vector3.up;
-
-        transform.position += dir * speed * Time.deltaTime;
+        transform.position += Vector3.up * speed * Time.deltaTime;
     }
 }

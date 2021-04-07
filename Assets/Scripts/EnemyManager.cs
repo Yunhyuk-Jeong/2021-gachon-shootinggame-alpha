@@ -1,31 +1,31 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    float currentTime;
-    public float createTime = 1;
-    public GameObject enemyFactory;
-    float minTime = 1;
-    float maxTime = 5;
+    public GameObject enemyPrefab;
+
+    public float creatTime = 3;
+    float currentTime = 0;
 
     void Start()
     {
-        createTime = UnityEngine.Random.Range(minTime, maxTime);
+        creatTime = Random.Range(1.0f, 5.0f);
     }
 
     void Update()
     {
         currentTime += Time.deltaTime;
 
-        if (currentTime > createTime)
+        if (currentTime > creatTime)
         {
-            GameObject enemy = Instantiate(enemyFactory);
-            enemy.transform.position = transform.position;
-            currentTime = 0;
+            GameObject enemy = Instantiate(enemyPrefab);
 
-            createTime = UnityEngine.Random.Range(minTime, maxTime);
+            enemy.transform.position = transform.position;
+
+            creatTime = Random.Range(1.0f, 5.0f);
+            currentTime = 0;
         }
     }
 }
