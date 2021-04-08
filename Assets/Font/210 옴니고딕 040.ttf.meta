@@ -10,8 +10,7 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - 210 OmniGothic
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 10137546701a21444a4e467a2910f6df, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

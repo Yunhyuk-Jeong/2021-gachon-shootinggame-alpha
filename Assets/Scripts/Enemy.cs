@@ -14,11 +14,11 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        if (player != null)
+        if(player != null)
         {
             int random = Random.Range(0, 100);
 
-            if (random < 50)
+            if(random < 50)
             {
                 dir = player.transform.position - transform.position;
                 dir.Normalize();
@@ -39,18 +39,31 @@ public class Enemy : MonoBehaviour
         transform.position += dir * speed * Time.deltaTime;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        GameObject smObject = GameObject.Find("ScoreManager");
-
-        ScoreManager sm = smObject.GetComponent<ScoreManager>();
-
-        sm.SetScore(sm.GetScore() + 1);
+        ScoreManager.Instance.Score++;
 
         GameObject explosion = Instantiate(explosionFactory);
 
         explosion.transform.position = transform.position;
-        Destroy(collision.gameObject);
-        Destroy(gameObject);
+
+        if (other.gameObject.name.Contains("Bullet"))
+        {
+            other.gameObject.SetActive(false);
+
+            PlayerFire player = GameObject.Find("Player").GetComponent<PlayerFire>();
+
+            player.bulletObjectPool.Add(other.gameObject);
+        }
+        else
+        {
+            Destroy(other.gameObject);
+        }
+
+        EnemyManager manager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+
+        manager.enemyObjectPool.Add(gameObject);
+
+        gameObject.SetActive(false);
     }
 }

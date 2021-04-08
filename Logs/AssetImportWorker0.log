@@ -15,11 +15,11 @@ C:/Users/super/Documents/Unity/ShootingGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5854
+11247
 Successfully changed project path to: C:/Users/super/Documents/Unity/ShootingGame
 C:/Users/super/Documents/Unity/ShootingGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,564 +35,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001177 seconds.
+Registered in 0.001246 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  0.686 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000776 seconds.
+Registered in 0.000791 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.513 seconds
+- Completed reload, in  0.511 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.5 MB.
-System memory in use after: 60.6 MB.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1572.
-Total: 1.450200 ms (FindLiveObjects: 0.111900 ms CreateObjectMapping: 0.026600 ms MarkObjects: 1.254200 ms  DeleteObjects: 0.056500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/AurynSky
-  artifactKey: Guid(b044160a1feed274f8863f9266bfc897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky using Guid(b044160a1feed274f8863f9266bfc897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f6eb513310934ef5b42548793bfb0b') in 0.009108 seconds
-  Import took 0.010559 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1598.
+Total: 1.577600 ms (FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.346200 ms  DeleteObjects: 0.059700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.918390 seconds.
-  path: Assets/Scenes/Shooting.unity
-  artifactKey: Guid(c834ad8b6571ad04caa4fcfa17275c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Shooting.unity using Guid(c834ad8b6571ad04caa4fcfa17275c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657ef780c3684267c4388380d6f07710') in 0.010661 seconds
-  Import took 0.012302 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000754 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.550 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.3 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 1.314300 ms (FindLiveObjects: 0.156300 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.112300 ms  DeleteObjects: 0.012700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 160.637916 seconds.
   path: Assets/Prefabs/Bullet.prefab
   artifactKey: Guid(d9e7accfb9d98aa41905ec13d93aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(d9e7accfb9d98aa41905ec13d93aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbfd9d910cc5184f6f33b9a36d4fe75') in 0.068682 seconds
-  Import took 0.070750 seconds .
+Start importing Assets/Prefabs/Bullet.prefab using Guid(d9e7accfb9d98aa41905ec13d93aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7be895614b9cbaa3512a12360c2d833') in 0.080628 seconds
+  Import took 0.082268 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(37afd33d9aa82a842829d19f610c4245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(37afd33d9aa82a842829d19f610c4245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febaad102adc04bd563f9d75637d2279') in 0.041300 seconds
-  Import took 0.042975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.355466 seconds.
-  path: Assets/CP03_Sound/Audio_BGM.wav
-  artifactKey: Guid(90eae78e8ce85a849b5b0ca11b2de641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CP03_Sound/Audio_BGM.wav using Guid(90eae78e8ce85a849b5b0ca11b2de641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826239d666f7c0ff30083591b36f6bc3') in 0.028912 seconds
-  Import took 0.030548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/CP03_Sound/Audio_Explosion.wav
-  artifactKey: Guid(6cac4e7122786824c824cd7507295c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CP03_Sound/Audio_Explosion.wav using Guid(6cac4e7122786824c824cd7507295c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a64bfca13d363c4e246b3e6b45f4cff') in 0.007530 seconds
-  Import took 0.008663 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/CP03_Sound/Audio_Bullet.wav
-  artifactKey: Guid(9378e143fbb4ddf4180e531c50642f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CP03_Sound/Audio_Bullet.wav using Guid(9378e143fbb4ddf4180e531c50642f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8f6b365e133bb7a65d3aed712954f9') in 0.009759 seconds
-  Import took 0.010851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.389987 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs
-  artifactKey: Guid(51181004cda195d48a14b6dad61a72ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs using Guid(51181004cda195d48a14b6dad61a72ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbc39b1e18f3bb2e5a00c5274288e3f') in 0.005387 seconds
-  Import took 0.006965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.550818 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs
-  artifactKey: Guid(dac552d33239a9145afb6dbc5232730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs using Guid(dac552d33239a9145afb6dbc5232730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea446ebeece3c16afe6f6b094ac4ab0d') in 0.005042 seconds
-  Import took 0.006543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.593397 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red
-  artifactKey: Guid(a418fd35103767d4ab9709be3630bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red using Guid(a418fd35103767d4ab9709be3630bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c341e15e069ab458c2cd3dddf05f634') in 0.005833 seconds
-  Import took 0.007443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.040113 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket01_Red.prefab
-  artifactKey: Guid(91a268ff863283649ae6dce76cf7ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket01_Red.prefab using Guid(91a268ff863283649ae6dce76cf7ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12b2a77d7d772ad7815cc2009807c93') in 0.016666 seconds
-  Import took 0.018429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket19_Red.prefab
-  artifactKey: Guid(24baf2ca3b369a64b999258f8731be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket19_Red.prefab using Guid(24baf2ca3b369a64b999258f8731be6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5840b0a00ea3571f95ae9b38155a0ce') in 0.014469 seconds
-  Import took 0.017438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket17_Red.prefab
-  artifactKey: Guid(14c6510220a5c9948b67eec479577196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket17_Red.prefab using Guid(14c6510220a5c9948b67eec479577196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b8939923c3144cba7aafc659f3b62') in 0.020451 seconds
-  Import took 0.022036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket07_Red.prefab
-  artifactKey: Guid(65d7e2f41d2be8e48995bb4070bbeca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket07_Red.prefab using Guid(65d7e2f41d2be8e48995bb4070bbeca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b819d274fe2fe53b1bde99295411be25') in 0.008419 seconds
-  Import took 0.009996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket04_Red.prefab
-  artifactKey: Guid(c8788abf7763abf4f869276b4cb7bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket04_Red.prefab using Guid(c8788abf7763abf4f869276b4cb7bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99ad527e198d73418ff973803482f6e') in 0.009612 seconds
-  Import took 0.010994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket10_Red.prefab
-  artifactKey: Guid(57369ee17caa1a2499b2aaa832a1134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket10_Red.prefab using Guid(57369ee17caa1a2499b2aaa832a1134d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6567a420aa93a8191041a3c886be795e') in 0.013709 seconds
-  Import took 0.015112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket15_Red.prefab
-  artifactKey: Guid(30f32df10c08f08468621dbc23081810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket15_Red.prefab using Guid(30f32df10c08f08468621dbc23081810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd168a3081aacb9f42aaa4b6d66db0ed1') in 0.012656 seconds
-  Import took 0.014363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket02_Red.prefab
-  artifactKey: Guid(b1ad7ae1ebd75ab41940c2536223f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket02_Red.prefab using Guid(b1ad7ae1ebd75ab41940c2536223f66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c740c2f0f3b702b62c9d7989e127d8cf') in 0.014397 seconds
-  Import took 0.015856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket24_Red.prefab
-  artifactKey: Guid(1fab09e291a675748a07983b08e234cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket24_Red.prefab using Guid(1fab09e291a675748a07983b08e234cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4cfcca47b4374921d94084bacdc87e') in 0.023895 seconds
-  Import took 0.025450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket25_Red.prefab
-  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6ec9f8126b78f8054feca5a53a3c48') in 0.008830 seconds
-  Import took 0.010451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket03_Red.prefab
-  artifactKey: Guid(8a79481a940f8d848a67ece755ba9762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket03_Red.prefab using Guid(8a79481a940f8d848a67ece755ba9762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d38160e550ad1a67b602b4f5946069f') in 0.010243 seconds
-  Import took 0.011713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket12_Red.prefab
-  artifactKey: Guid(dc46eb4c552efd343936da67692d8064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket12_Red.prefab using Guid(dc46eb4c552efd343936da67692d8064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4056b2af73fac2e61364cf91ea87d4e0') in 0.022250 seconds
-  Import took 0.023942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket21_Red.prefab
-  artifactKey: Guid(05c866d08eb8b9442bf7b4c3e8ed5b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket21_Red.prefab using Guid(05c866d08eb8b9442bf7b4c3e8ed5b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef1460ee70ded4d1d12c2010eef122e') in 0.012830 seconds
-  Import took 0.014564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket08_Red.prefab
-  artifactKey: Guid(818eebc32ffe82c48a228c6a0845633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket08_Red.prefab using Guid(818eebc32ffe82c48a228c6a0845633f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df0d1a709375cbb22dc7d6e7bf06bfd') in 0.021639 seconds
-  Import took 0.023423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket22_Red.prefab
-  artifactKey: Guid(e31b192fb1e9da74fa71818add9c98ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket22_Red.prefab using Guid(e31b192fb1e9da74fa71818add9c98ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3000c2ba4dc612d7637a37d064cf8b') in 0.026595 seconds
-  Import took 0.028139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket16_Red.prefab
-  artifactKey: Guid(720bd4b72fb311c468bfbf618f17263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket16_Red.prefab using Guid(720bd4b72fb311c468bfbf618f17263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6211b16570d27b8ab0c424a3556df5') in 0.011210 seconds
-  Import took 0.013022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket14_Red.prefab
-  artifactKey: Guid(7df9bafe504b33b4b96c2d9c75ce8d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket14_Red.prefab using Guid(7df9bafe504b33b4b96c2d9c75ce8d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665cbe127abc6e03dbb8b95640d47e15') in 0.009129 seconds
-  Import took 0.010699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket23_Red.prefab
-  artifactKey: Guid(dffe57e4e8411e8429b0c5c20a5892d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket23_Red.prefab using Guid(dffe57e4e8411e8429b0c5c20a5892d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6c0cd8e1628d28dc9fb3cc0c504e33') in 0.008251 seconds
-  Import took 0.009552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket11_Red.prefab
-  artifactKey: Guid(9ed671e46c346d84f91d3c0682968012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket11_Red.prefab using Guid(9ed671e46c346d84f91d3c0682968012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd14d4cb885e35f6f9e3404e1cce5f') in 0.008521 seconds
-  Import took 0.009620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket06_Red.prefab
-  artifactKey: Guid(82169fb5eac75114e9dae4d2dd916e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket06_Red.prefab using Guid(82169fb5eac75114e9dae4d2dd916e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2504a85f06b95ffaf72ee3d9592e3994') in 0.010461 seconds
-  Import took 0.011653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket13_Red.prefab
-  artifactKey: Guid(2e6e9603946bad54c93a37ad3dcf5a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket13_Red.prefab using Guid(2e6e9603946bad54c93a37ad3dcf5a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bcdec4579e5d3c2cc90f91b0b22f42') in 0.008726 seconds
-  Import took 0.009897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket20_Red.prefab
-  artifactKey: Guid(6a3a8a8cf48e3724caddfc3a5720216c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket20_Red.prefab using Guid(6a3a8a8cf48e3724caddfc3a5720216c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8310e65a3b34aa7c3c92c12e6d607e68') in 0.010311 seconds
-  Import took 0.011623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket09_Red.prefab
-  artifactKey: Guid(930cc3f14bc84554f8048c12ee59326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket09_Red.prefab using Guid(930cc3f14bc84554f8048c12ee59326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2647d065b51a5f9137948ec9dd0072ee') in 0.008795 seconds
-  Import took 0.009987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket18_Red.prefab
-  artifactKey: Guid(ba82ee92e1ad49a49a80b733d3386209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket18_Red.prefab using Guid(ba82ee92e1ad49a49a80b733d3386209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c46e695d4869932d89ad287ad35d65') in 0.009467 seconds
-  Import took 0.010787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab
-  artifactKey: Guid(d4943850338a69742916d241ab98a327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab using Guid(d4943850338a69742916d241ab98a327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b368bf20c2630fa58903a4b10c67f8bc') in 0.023615 seconds
-  Import took 0.025197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001184 seconds.
-  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab
-  artifactKey: Guid(d4943850338a69742916d241ab98a327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Red/Rocket05_Red.prefab using Guid(d4943850338a69742916d241ab98a327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b368bf20c2630fa58903a4b10c67f8bc') in 0.007323 seconds
-  Import took 0.008784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.534254 seconds.
+  Time since last request: 74.688709 seconds.
   path: Assets/Prefabs/Bullet.prefab
   artifactKey: Guid(d9e7accfb9d98aa41905ec13d93aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(d9e7accfb9d98aa41905ec13d93aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb78d53c42f6ce537d993a6af777b259') in 0.019883 seconds
-  Import took 0.021579 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.495 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
-Total: 1.306100 ms (FindLiveObjects: 0.103300 ms CreateObjectMapping: 0.021100 ms MarkObjects: 1.168600 ms  DeleteObjects: 0.012000 ms)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(d9e7accfb9d98aa41905ec13d93aa9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74680acbade3484453f028f2da87308b') in 0.012694 seconds
+  Import took 0.014318 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.204696 seconds.
-  path: Assets/StarfieldMaterials/Textures
-  artifactKey: Guid(8f41b23badd3db64f9b047a192436638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures using Guid(8f41b23badd3db64f9b047a192436638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceeb763edc719b689912cf2c2e94790') in 0.006747 seconds
-  Import took 0.008548 seconds .
+  Time since last request: 0.981297 seconds.
+  path: Assets/Materials/Mat_Background.mat
+  artifactKey: Guid(833444c0f1490bd40a5507e2caaadba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mat_Background.mat using Guid(833444c0f1490bd40a5507e2caaadba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffd5dfa2bcc34aebdc3c9de043b8cf0') in 0.038615 seconds
+  Import took 0.040281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.884628 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb
-  artifactKey: Guid(0997958e3ead06144bf65005b6381b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb using Guid(0997958e3ead06144bf65005b6381b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66cee3fb2497eef7d2d91bf6148e46e') in 0.005235 seconds
-  Import took 0.006738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044359 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png
-  artifactKey: Guid(940d2fb1699e983498a0d934bd5ed7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png using Guid(940d2fb1699e983498a0d934bd5ed7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a2b3a7c03418f644e64d20bd81ef78') in 0.038214 seconds
-  Import took 0.039963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png
-  artifactKey: Guid(234956b9f0f6d3342949e325b64b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png using Guid(234956b9f0f6d3342949e325b64b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae07b9200f897588528feb5b4f55022b') in 0.013311 seconds
-  Import took 0.014945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png
-  artifactKey: Guid(4c1e43d371432ae4987708c889515593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png using Guid(4c1e43d371432ae4987708c889515593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2783986bfbd905ae00596ab81f0af00') in 0.017759 seconds
-  Import took 0.019779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png
-  artifactKey: Guid(7948a5d3ead01f4479a143b7953e0961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png using Guid(7948a5d3ead01f4479a143b7953e0961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a5e1437c79b3e0943b164138f4b84e') in 0.014005 seconds
-  Import took 0.015718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png
-  artifactKey: Guid(bec00bfeb5521ff48b28ac4df811d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png using Guid(bec00bfeb5521ff48b28ac4df811d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3adfc2d4fa9f07b18e847cce4a17933') in 0.015069 seconds
-  Import took 0.016670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png
-  artifactKey: Guid(d9a44efbb7762a94695e1a651bff8940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png using Guid(d9a44efbb7762a94695e1a651bff8940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59018dc2e55a87ddbdbcf73d52f38c6') in 0.019662 seconds
-  Import took 0.021132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png
-  artifactKey: Guid(1987bbe697e48644e83c89f4defc77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png using Guid(1987bbe697e48644e83c89f4defc77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72486ffab5a74c554181df5829361204') in 0.015086 seconds
-  Import took 0.016443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png
-  artifactKey: Guid(1a0be4ce8ad331141b7759d94dac84f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png using Guid(1a0be4ce8ad331141b7759d94dac84f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3af846bf708d0bfaa67d5d0b1191729') in 0.008649 seconds
-  Import took 0.010226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png
-  artifactKey: Guid(1987bbe697e48644e83c89f4defc77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png using Guid(1987bbe697e48644e83c89f4defc77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72486ffab5a74c554181df5829361204') in 0.009326 seconds
-  Import took 0.010790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png
-  artifactKey: Guid(552fd930f2b35f8479d0d62dbeaa8d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png using Guid(552fd930f2b35f8479d0d62dbeaa8d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0255962a6689583c4243e0f134bda56b') in 0.020261 seconds
-  Import took 0.021703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png
-  artifactKey: Guid(260e79429a42d56439946e97aa96c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png using Guid(260e79429a42d56439946e97aa96c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8f108eede132abb889da3863f69b75') in 0.010014 seconds
-  Import took 0.011421 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000799 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.498 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.6 MB.
-System memory in use after: 63.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
-Total: 1.261900 ms (FindLiveObjects: 0.105100 ms CreateObjectMapping: 0.024600 ms MarkObjects: 1.120600 ms  DeleteObjects: 0.010900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 297.704277 seconds.
-  path: Assets/Font
-  artifactKey: Guid(5b757bb164200674d91160ed0d24e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font using Guid(5b757bb164200674d91160ed0d24e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc034d5f412c341b39721865e2b31f76') in 0.007387 seconds
-  Import took 0.009427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.601040 seconds.
-  path: Assets/Font/210 옴니고딕 010.ttf
-  artifactKey: Guid(3bf1ba43c29def6428bbfba1eb348e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font/210 옴니고딕 010.ttf using Guid(3bf1ba43c29def6428bbfba1eb348e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad533bbeb182c36d1d4813e4e11f9fc') in 0.053594 seconds
-  Import took 0.055287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Font/210 옴니고딕 030.ttf
-  artifactKey: Guid(10137546701a21444a4e467a2910f6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font/210 옴니고딕 030.ttf using Guid(10137546701a21444a4e467a2910f6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0525c3cd0aad10a9acbcb06785d2169') in 0.031755 seconds
-  Import took 0.033329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
+  Time since last request: 169.442589 seconds.
   path: Assets/Font/210 옴니고딕 040.ttf
   artifactKey: Guid(31a4c30da7454fd4ab4d36e43661f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font/210 옴니고딕 040.ttf using Guid(31a4c30da7454fd4ab4d36e43661f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eac77c6c276a78c69a7f50e166c460d') in 0.020865 seconds
-  Import took 0.022387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Font/210 옴니고딕 020.ttf
-  artifactKey: Guid(f904379ab9a99054b8062e6c02f58001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font/210 옴니고딕 020.ttf using Guid(f904379ab9a99054b8062e6c02f58001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db46fafb97faa1223e8e357b22023962') in 0.027643 seconds
-  Import took 0.029146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Font/210 옴니고딕 050.ttf
-  artifactKey: Guid(e4f7b5dd85414124ca650b19d5944024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font/210 옴니고딕 050.ttf using Guid(e4f7b5dd85414124ca650b19d5944024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bede1d2fb1635387fabcfd130aac4938') in 0.018380 seconds
-  Import took 0.019715 seconds .
+Start importing Assets/Font/210 옴니고딕 040.ttf using Guid(31a4c30da7454fd4ab4d36e43661f96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec5ef0b44eb31449a88869cc8944424') in 0.035567 seconds
+  Import took 0.037261 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000806 seconds.
+Registered in 0.000794 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
@@ -601,60 +116,37 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.507 seconds
+- Completed reload, in  0.497 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.0 MB.
-System memory in use after: 64.1 MB.
+Unloading 1142 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.471600 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.296200 ms  DeleteObjects: 0.013700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1644.
+Total: 1.318000 ms (FindLiveObjects: 0.104000 ms CreateObjectMapping: 0.026400 ms MarkObjects: 1.175500 ms  DeleteObjects: 0.011200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000850 seconds.
+Registered in 0.000742 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.501 seconds
+- Completed reload, in  0.479 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.0 MB.
-System memory in use after: 64.1 MB.
+Unloading 1142 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
-Total: 1.191000 ms (FindLiveObjects: 0.116300 ms CreateObjectMapping: 0.026100 ms MarkObjects: 1.036900 ms  DeleteObjects: 0.011100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000741 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.483 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.0 MB.
-System memory in use after: 64.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1632.
-Total: 1.336500 ms (FindLiveObjects: 0.119500 ms CreateObjectMapping: 0.024900 ms MarkObjects: 1.178400 ms  DeleteObjects: 0.012700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.347200 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.025400 ms MarkObjects: 1.129900 ms  DeleteObjects: 0.013500 ms)
 

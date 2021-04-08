@@ -4,14 +4,35 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+    public int poolSize = 10;
 
-    public float creatTime = 3;
+    public List<GameObject> enemyObjectPool;
+
+    public Transform[] spawnPoints;
+
+    public GameObject enemyFactory;
+
+    public float minTime = 0.5f;
+
+    public float maxTime = 1.5f;
+
+    float creatTime;
     float currentTime = 0;
 
     void Start()
     {
-        creatTime = Random.Range(1.0f, 5.0f);
+        creatTime = Random.Range(minTime, maxTime);
+
+        enemyObjectPool = new List<GameObject>();
+
+        for (int i = 0; i < poolSize; i++)
+        {
+            GameObject enemy = Instantiate(enemyFactory);
+
+            enemyObjectPool.Add(enemy);
+
+            enemy.SetActive(false);
+        }
     }
 
     void Update()
@@ -20,11 +41,19 @@ public class EnemyManager : MonoBehaviour
 
         if (currentTime > creatTime)
         {
-            GameObject enemy = Instantiate(enemyPrefab);
+            GameObject enemy = enemyObjectPool[0];
+            if (enemyObjectPool.Count > 0)
+            {
+                enemy.SetActive(true);
 
-            enemy.transform.position = transform.position;
+                enemyObjectPool.Remove(enemy);
 
-            creatTime = Random.Range(1.0f, 5.0f);
+                int index = Random.Range(0, spawnPoints.Length);
+
+                enemy.transform.position = spawnPoints[index].position;
+            }
+
+            creatTime = Random.Range(minTime, maxTime);
             currentTime = 0;
         }
     }

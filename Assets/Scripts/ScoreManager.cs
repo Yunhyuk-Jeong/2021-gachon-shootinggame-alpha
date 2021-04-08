@@ -14,6 +14,39 @@ public class ScoreManager : MonoBehaviour
 
     private int bestScore;
 
+    public static ScoreManager Instance = null;
+
+    public int Score
+    {
+        get
+        {
+            return currentScore;
+        }
+        set
+        {
+            currentScore = value;
+
+            currentScoreUI.text = "현재 점수 : " + currentScore;
+
+            if (currentScore > bestScore)
+            {
+                bestScore = currentScore;
+
+                bestScoreUI.text = "최고 점수 : " + bestScore;
+
+                PlayerPrefs.SetInt("Best Score", bestScore);
+            }
+        }
+    }
+
+    void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+    }
+
     void Start()
     {
         bestScore = PlayerPrefs.GetInt("Best Score", 0);
